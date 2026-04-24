@@ -21,7 +21,7 @@ A visual workflow builder that allows users to create, connect, configure, and s
 
 ### Workflow Canvas
 
-![Workflow](./workflow.png)
+![Workflow](./workingUI.png)
 
 ### Simulation View
 
