@@ -21,9 +21,13 @@ This project is a visual workflow builder that allows users to create, connect, 
 
 ## How to Run
 
-1. npm install
-2. npm run dev
-3. Open http://localhost:5173
+1. Clone the repository  
+2. Run:
+   npm install  
+3. Start:
+   npm run dev  
+4. Open:
+   http://localhost:5173  
 
 ## Sample Flow
 
