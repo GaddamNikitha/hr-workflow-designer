@@ -1,36 +1,23 @@
-# 🚀 HR Workflow Designer
+# HR Workflow Designer
 
-## 📌 Overview
+## Overview
 
-The **HR Workflow Designer** is a visual workflow builder that allows users to create, connect, configure, and simulate HR processes such as onboarding, approvals, and task assignments.
+A visual workflow builder that allows users to create, connect, configure, and simulate HR workflows like onboarding and approvals.
 
-It provides an interactive drag-and-drop interface where workflows can be designed dynamically and validated before execution.
+## Features
 
----
+* Create nodes: Start, Task, Approval, End
+* Connect nodes visually
+* Edit node details (assignee, date, message)
+* Simulate workflow
 
-## ✨ Features
+## Tech Stack
 
-* 🔹 Create nodes: **Start, Task, Approval, End**
-* 🔹 Drag-and-drop workflow builder (React Flow)
-* 🔹 Connect nodes visually
-* 🔹 Dynamic configuration panel for each node type
-* 🔹 Multi-line node display (assignee, date, message)
-* 🔹 Workflow validation (ensures proper connections)
-* 🔹 Workflow simulation preview
-* 🔹 Clean and responsive UI
+* React (Vite)
+* React Flow
+* JavaScript
 
----
-
-## 🛠 Tech Stack
-
-* **Frontend:** React (Vite)
-* **Library:** React Flow
-* **Language:** JavaScript
-* **Styling:** CSS
-
----
-
-## 🖼 Preview
+## Preview
 
 ### Workflow Canvas
 
@@ -40,59 +27,21 @@ It provides an interactive drag-and-drop interface where workflows can be design
 
 ![Simulation](./simulation.png)
 
----
-
-## ▶️ How to Run
+## How to Run
 
 1. Clone the repository
-2. Install dependencies:
-
-   ```
+2. Run:
    npm install
-   ```
-3. Start the development server:
-
-   ```
+3. Start:
    npm run dev
-   ```
-4. Open in browser:
-
-   ```
+4. Open:
    http://localhost:5173
-   ```
 
----
-
-## 🔄 Sample Workflow
+## Sample Flow
 
 Start → Task → Approval → End
 
----
+## Author
 
-## 📂 Project Structure
+Nikitha Gaddam
 
-```
-src/
- ├── App.jsx
- ├── main.jsx
- ├── App.css
- ├── index.css
-public/
-index.html
-```
-
----
-
-## 👩‍💻 Author
-
-**Nikitha Gaddam**
-
----
-
-## ⭐ Notes
-
-* Ensure Node.js is installed before running
-* This project is built for demonstrating workflow visualization and simulation logic
-* Can be extended with backend integration for real-world use
-
----
